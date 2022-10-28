@@ -1,0 +1,20 @@
+{% extends 'todo/layout.html' %}
+{% block body %}
+<header>
+    <div>
+        <spam><a href="">Inicio</a> </spam>
+        <spam><a href="">Imagenes</a> </spam>
+        <spam><a href="">Tareas</a> </spam>
+    </div>
+</header>
+<div class="centro">
+    <h1>Lista de tareas</h1>
+    <ul>
+    {% for tarea in tareas %}
+        <li>{{ tarea }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="{% url 'add' %}">Agregar Tarea</a>
+</div>
+{% endblock %}

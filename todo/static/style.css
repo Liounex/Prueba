@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(79, 166, 206);
+}
+
+header {
+    background-color: rgb(75, 88, 88);
+    padding: 30px;
+}
+
+header div spam a{
+    margin: 30px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+header div spam a:hover {
+    background-color: aliceblue;
+    margin: 30px;
+    font-size: 25px;
+    color: rgb(75, 88, 88);
+}
+
+
+.centro {
+    text-align: center;
+}
+
+h1 {
+    padding: 25px;
+}
+
+ul {
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.centro a {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+    display: inline-block;
+    width: 5%;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: chartreuse;
+}
